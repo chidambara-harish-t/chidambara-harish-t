@@ -33,25 +33,9 @@ Always learning and evolving with curiosity and creativity.
 ---
 
 ### Tech Stack
-
-<table align="center">
-  <tr>
-    <!-- Left Side Icons -->
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=python&theme=dark" />
-      <img src="https://skillicons.dev/icons?i=r&theme=dark" />
-      <img src="https://skillicons.dev/icons?i=mysql&theme=dark" />
-    </td>
-
-    <!-- Right Side Icons -->
-    <td align="center" style="padding-left: 60px;">
-      <img src="https://skillicons.dev/icons?i=mongodb&theme=dark" />
-      <img src="https://skillicons.dev/icons?i=docker&theme=dark" />
-      <img src="https://skillicons.dev/icons?i=linux&theme=dark" />
-    </td>
-  </tr>
-</table>
-
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,r,mysql,mongodb,docker,linux&theme=dark" />
+</p>
 
 
 
