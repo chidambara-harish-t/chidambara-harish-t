@@ -14,7 +14,7 @@ Exploring **Machine Learning, Data Visualization, SQL, and Python libraries**.
 ## Contact
 - 📧 Email: chidambara.harish@gmail.com  
 - 🔗 LinkedIn: www.linkedin.com/in/chidambara-harish-thangaraj-66ba992a9   
-- 🇺🇸 Location: Chicago 
+-  Location: Chicago 
 
 ---
 
