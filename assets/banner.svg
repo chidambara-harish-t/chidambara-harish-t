@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="300" viewBox="0 0 1600 300" preserveAspectRatio="xMidYMid slice">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="330" viewBox="0 0 1600 330" preserveAspectRatio="xMidYMid slice">
   <defs>
     <linearGradient id="g1" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0%" stop-color="#ff6fa3"/>
@@ -13,29 +13,43 @@
     </filter>
 
     <clipPath id="waveClip">
-      <path d="M0,120 C200,180 400,60 800,120 C1200,180 1400,40 1600,120 L1600,300 L0,300 Z"/>
+      <path d="M0,130 C200,200 400,70 800,130 C1200,200 1400,50 1600,130 L1600,330 L0,330 Z"/>
     </clipPath>
   </defs>
 
-  <rect width="1600" height="300" fill="#0f1720"/>
-  <rect x="0" y="0" width="1600" height="120" fill="url(#g1)"/>
+  <rect width="1600" height="330" fill="#0f1720"/>
+  <rect x="0" y="0" width="1600" height="130" fill="url(#g1)"/>
 
   <g clip-path="url(#waveClip)">
-    <rect x="0" y="90" width="1600" height="210" fill="#111217" opacity="0.9"/>
-    <rect x="-400" y="80" width="2400" height="200" fill="url(#g1)" opacity="0.12"/>
+    <rect x="0" y="100" width="1600" height="230" fill="#111217" opacity="0.9"/>
+    <rect x="-400" y="90" width="2400" height="200" fill="url(#g1)" opacity="0.12"/>
   </g>
 
-  <text x="50%" y="65" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
-        font-size="64" font-weight="700" fill="white" filter="url(#shadow)">
+  <!-- MAIN NAME -->
+  <text x="50%" y="75" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="60" font-weight="700" fill="white" filter="url(#shadow)">
     Chidambara Harish Thangaraj
   </text>
 
-  <g transform="translate(0,150)">
-    <text x="50%" y="60" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
-          font-size="35" font-weight="700" fill="url(#g1)">
-      Hey 👋 I'm TCH — Data Science | Analytics | Software Development
+  <!-- MOVING WELCOME TEXT -->
+  <g transform="translate(0,155)">
+    <text x="50%" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+          font-size="32" font-weight="700" fill="url(#g1)">
+      Hey there! I'm TCH 👋
     </text>
-    <animateTransform attributeName="transform" type="translate" from="-8 0" to="8 0"
-                      dur="3s" repeatCount="indefinite" additive="sum"/>
+    <animateTransform attributeName="transform" type="translate" from="-15 0" to="15 0"
+                      dur="4s" repeatCount="indefinite" additive="sum"/>
   </g>
+
+  <!-- MOVING SECOND LINE -->
+  <g transform="translate(0,210)">
+    <text x="50%" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+          font-size="27" font-weight="700" fill="url(#g1)">
+      Welcome to my GitHub | Tech Explorer | MS in Data Science @ Marquette University
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="15 0" to="-15 0"
+                      dur="4s" repeatCount="indefinite" additive="sum"/>
+  </g>
+
 </svg>
+
