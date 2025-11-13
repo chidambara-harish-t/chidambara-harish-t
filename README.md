@@ -1,55 +1,90 @@
-<p align="center">
-  <img src="assets/banner.svg" width="100%" />
-
-
 <!-- Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF69B4&height=200&section=header&text=Chidambara%20Harish%20Thangaraj&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+</p>
 
+<!-- Typing Intro -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&pause=1000&color=FF69B4&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Chidambara+Harish+Thangaraj;Welcome+to+my+GitHub;Tech+Explorer;MS+in+Data+Science+@+Marquette+University" alt="typing"/>
+  </a>
 </p>
 
 ---
 
-## 🌟 About Me
-I'm passionate about <b>Data Science, Analytics, and Software Development.</b>  
-I love transforming data into insights and creating meaningful digital solutions.  
-Currently exploring <b>Machine Learning, Data Visualization, SQL, and Python Libraries</b>.  
-Always learning with curiosity and creativity!
+### About Me
+I’m **Chidambara Harish Thangaraj**, passionate about **Data Science, Analytics, and Software Development**.  
+I love transforming data into insights and building meaningful digital solutions.  
+Currently exploring **Machine Learning, Data Visualization, and Python libraries**.  
+Always learning and evolving with curiosity and creativity.
 
 ---
 
-## 🔗 Contact
-
+### Contact
 <p align="center">
   <a href="https://www.linkedin.com/in/chidambara-harish-thangaraj-66ba992a9">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-FF69B4?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:chidambara.harish@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-FF1493?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
 
 ---
 
-## 💻 Tech Stack
-
+### Tech Stack
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
-  <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://skillicons.dev/icons?i=python,r,sql,tableau,powerbi,databricks,jupyter,mongodb,neo4j,docker,linux" />
 </p>
 
 ---
 
-## 📊 GitHub Stats
+### 📊 GitHub Analytics
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=chidambara-harish-t&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chidambara-harish-t&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=chidambara-harish-t&show_icons=true&theme=rose_pine&hide_border=true" height="170px" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chidambara-harish-t&theme=rose_pine&hide_border=true" height="170px" />
+</p>
+
+---
+
+### Achievements
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=chidambara-harish-t&theme=gruvbox&no-frame=true&margin-w=10" />
+</p>
+
+---
+
+### Contribution Graph 
+<div align="center">
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+</div>
+
+---
+
+### Most Used Languages
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chidambara-harish-t&layout=compact&theme=rose_pine&hide_border=true&langs_count=6" alt="Most Used Languages" />
+</p>
+
+---
+
+### Quote
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+</p>
+
+---
+
+### Profile Views
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=chidambara-harish-t&label=Profile%20Views&color=ff69b4&style=flat" />
+</p>
+
+---
+
+<h4 align="center">“Analyze what you see, build what you dream.” — Chidambara Harish Thangaraj</h4>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF69B4&height=120&section=footer"/>
 </p>
