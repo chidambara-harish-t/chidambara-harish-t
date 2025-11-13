@@ -34,8 +34,17 @@ Always learning and evolving with curiosity and creativity.
 
 ### Tech Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,mysql,tableau,powerbi,databricks,jupyter,mongodb,neo4j,docker,linux&theme=dark" />
+  <!-- Left side -->
+  <img src="https://skillicons.dev/icons?i=python,r,mysql&theme=dark" />
+  
+  <!-- Space in middle -->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+  <!-- Right side -->
+  <img src="https://skillicons.dev/icons?i=mongodb,docker,linux&theme=dark" />
 </p>
+
 
 
 ---
