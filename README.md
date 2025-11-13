@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/banner.svg" width="100%" />
+</p>
 <!-- Banner -->
 <h1 align="center" style="color:#ff4da6;">Chidambara Harish Thangaraj</h1>
 <p align="center" style="font-size:18px;">
