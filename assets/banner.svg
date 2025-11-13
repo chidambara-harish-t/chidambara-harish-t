@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="330" viewBox="0 0 1600 330" preserveAspectRatio="xMidYMid slice">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="340" viewBox="0 0 1600 340" preserveAspectRatio="xMidYMid slice">
   <defs>
     <linearGradient id="g1" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0%" stop-color="#ff6fa3"/>
@@ -13,43 +13,68 @@
     </filter>
 
     <clipPath id="waveClip">
-      <path d="M0,130 C200,200 400,70 800,130 C1200,200 1400,50 1600,130 L1600,330 L0,330 Z"/>
+      <path d="M0,140 C200,220 400,80 800,140 C1200,220 1400,60 1600,140 L1600,340 L0,340 Z"/>
     </clipPath>
   </defs>
 
-  <rect width="1600" height="330" fill="#0f1720"/>
-  <rect x="0" y="0" width="1600" height="130" fill="url(#g1)"/>
+  <!-- background -->
+  <rect width="1600" height="340" fill="#0f1720"/>
+  <rect x="0" y="0" width="1600" height="140" fill="url(#g1)"/>
 
   <g clip-path="url(#waveClip)">
-    <rect x="0" y="100" width="1600" height="230" fill="#111217" opacity="0.9"/>
-    <rect x="-400" y="90" width="2400" height="200" fill="url(#g1)" opacity="0.12"/>
+    <rect x="0" y="110" width="1600" height="230" fill="#111217" opacity="0.9"/>
+    <rect x="-400" y="100" width="2400" height="220" fill="url(#g1)" opacity="0.12"/>
   </g>
 
-  <!-- MAIN NAME -->
-  <text x="50%" y="75" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
-        font-size="60" font-weight="700" fill="white" filter="url(#shadow)">
+  <!-- MAIN NAME (static) -->
+  <text x="50%" y="85" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="56" font-weight="700" fill="white" filter="url(#shadow)">
     Chidambara Harish Thangaraj
   </text>
 
-  <!-- MOVING WELCOME TEXT -->
-  <g transform="translate(0,155)">
-    <text x="50%" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
-          font-size="32" font-weight="700" fill="url(#g1)">
-      Hey there! I'm TCH 👋
+  <!-- SEQUENTIAL PHRASES: overlapping, one-by-one -->
+  <!-- Timeline uses dur="10s" (change to 8s or 12s to speed up/slow down) -->
+
+  <!-- Phrase 1 -->
+  <g id="p1" transform="translate(0,170)" opacity="0">
+    <text x="50%" y="0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+          font-size="30" font-weight="700" fill="url(#g1)">
+      Hey there! I'm Chidambara Harish Thangaraj 👋
     </text>
-    <animateTransform attributeName="transform" type="translate" from="-15 0" to="15 0"
-                      dur="4s" repeatCount="indefinite" additive="sum"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.33;0.42" dur="10s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="-10,170;0,170;10,170" keyTimes="0;0.25;0.33" dur="10s" repeatCount="indefinite"/>
   </g>
 
-  <!-- MOVING SECOND LINE -->
-  <g transform="translate(0,210)">
-    <text x="50%" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
-          font-size="27" font-weight="700" fill="url(#g1)">
-      Welcome to my GitHub | Tech Explorer | MS in Data Science @ Marquette University
+  <!-- Phrase 2 -->
+  <g id="p2" transform="translate(0,170)" opacity="0">
+    <text x="50%" y="0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+          font-size="30" font-weight="700" fill="url(#g1)">
+      Welcome to my GitHub
     </text>
-    <animateTransform attributeName="transform" type="translate" from="15 0" to="-15 0"
-                      dur="4s" repeatCount="indefinite" additive="sum"/>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.5;0.75;0.83" dur="10s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="10,170;0,170;-10,170" keyTimes="0.42;0.58;0.75" dur="10s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Phrase 3 -->
+  <g id="p3" transform="translate(0,170)" opacity="0">
+    <text x="50%" y="0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+          font-size="30" font-weight="700" fill="url(#g1)">
+      Tech Explorer
+    </text>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.83;0.92;0.96" dur="10s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="-10,170;0,170;10,170" keyTimes="0.75;0.83;0.95" dur="10s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Phrase 4 -->
+  <g id="p4" transform="translate(0,170)" opacity="0">
+    <text x="50%" y="0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+          font-size="26" font-weight="700" fill="url(#g1)">
+      MS in Data Science @ Marquette University
+    </text>
+    <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;0.83;0.92;0.96;0.99;1" dur="10s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="10,170;0,170;-10,170" keyTimes="0.83;0.96;1" dur="10s" repeatCount="indefinite"/>
   </g>
 
 </svg>
+
 
