@@ -1,6 +1,14 @@
 <p align="center">
   <img src="assets/banner.svg" width="100%" />
 </p>
+<h2 align="center" style="color:#ff66b3;">
+  Hey there! I'm <b>Chidambara Harish Thangaraj (TCH)</b> 👋
+</h2>
+
+<p align="center" style="color:#ff99cc; font-size: 18px;">
+  Welcome to my GitHub 👨‍💻 | Tech Explorer | MS in Data Science @ Marquette University
+</p>
+
 <!-- Banner -->
 
 </p>
